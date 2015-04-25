@@ -72,7 +72,6 @@ ADD supervisor/sshd.conf /etc/supervisor/conf.d/sshd.conf
 
 WORKDIR /var/www/
 
-
 EXPOSE 80
 EXPOSE 22
 
