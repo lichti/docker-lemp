@@ -72,6 +72,8 @@ ADD supervisor/sshd.conf /etc/supervisor/conf.d/sshd.conf
 
 WORKDIR /var/www/
 
+VOLUME /var/www/
+VOLUME /var/lib/mysql/
 
 EXPOSE 80
 EXPOSE 22
